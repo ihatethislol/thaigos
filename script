@@ -15,7 +15,7 @@
 
 
 
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Never's Garbage Glitcher] LOADED", "All")
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("+", "All")
 
 
 
