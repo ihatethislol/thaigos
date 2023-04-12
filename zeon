@@ -1449,7 +1449,7 @@ if MPASword[1] then
 end
 LWP2.Parent = leftWing
 local LWP3 = WingPiece:Clone();
-if game.Players.LocalPlayer.Character:FindFirstChild("White Demon Trident") then --White Demon Trident
+if game.Players.LocalPlayer.Character:FindFirstChild("Russo's Sword") then --White Demon Trident
 	for _,v in pairs(LWP3:GetChildren()) do
 		if v:IsA("BasePart") then
 			v.Transparency = 1
@@ -1458,7 +1458,7 @@ if game.Players.LocalPlayer.Character:FindFirstChild("White Demon Trident") then
 	local athp = Instance.new("Attachment",LWP3.PrimaryPart)
 	local atho = Instance.new("Attachment",LWP3.PrimaryPart)
 
-	local HatChoice = game.Players.LocalPlayer.Character:FindFirstChild("White Demon Trident") --White Demon Trident
+	local HatChoice = game.Players.LocalPlayer.Character:FindFirstChild("Russo's Sword") --White Demon Trident
 	HatChoice.Handle:FindFirstChildOfClass("AlignPosition").Attachment1 = athp
 	HatChoice.Handle:FindFirstChildOfClass("AlignOrientation").Attachment1 = atho
 
@@ -1506,7 +1506,7 @@ end
 
 RWP2.Parent = rightWing
 local RWP3 = WingPiece:Clone();
-if game.Players.LocalPlayer.Character:FindFirstChild("Black Demon Trident") then --Black Demon Trident
+if game.Players.LocalPlayer.Character:FindFirstChild("TopHat") then --Black Demon Trident
 	for _,v in pairs(RWP3:GetChildren()) do
 		if v:IsA("BasePart") then
 			v.Transparency = 1
@@ -1515,7 +1515,7 @@ if game.Players.LocalPlayer.Character:FindFirstChild("Black Demon Trident") then
 	local athp = Instance.new("Attachment",RWP3.PrimaryPart)
 	local atho = Instance.new("Attachment",RWP3.PrimaryPart)
 
-	local HatChoice = game.Players.LocalPlayer.Character:FindFirstChild("Black Demon Trident") --Black Demon Trident
+	local HatChoice = game.Players.LocalPlayer.Character:FindFirstChild("TopHat") --Black Demon Trident
 	HatChoice.Handle:FindFirstChildOfClass("AlignPosition").Attachment1 = athp
 	HatChoice.Handle:FindFirstChildOfClass("AlignOrientation").Attachment1 = atho
 
@@ -1525,7 +1525,7 @@ end
 
 RWP3.Parent = rightWing
 local RWP4 = WingPiece:Clone();
-if game.Players.LocalPlayer.Character:FindFirstChild("swordhalo") then --swordhalo 
+if game.Players.LocalPlayer.Character:FindFirstChild("Meshes/Crystal MoonAccessory") then --swordhalo 
 	for _,v in pairs(RWP4:GetChildren()) do
 		if v:IsA("BasePart") then
 			v.Transparency = 1
@@ -1534,7 +1534,7 @@ if game.Players.LocalPlayer.Character:FindFirstChild("swordhalo") then --swordha
 	local athp = Instance.new("Attachment",RWP4.PrimaryPart)
 	local atho = Instance.new("Attachment",RWP4.PrimaryPart)
 
-	local HatChoice = game.Players.LocalPlayer.Character:FindFirstChild("swordhalo") --swordhalo 
+	local HatChoice = game.Players.LocalPlayer.Character:FindFirstChild("Meshes/Crystal MoonAccessory") --swordhalo 
 	HatChoice.Handle:FindFirstChildOfClass("AlignPosition").Attachment1 = athp
 	HatChoice.Handle:FindFirstChildOfClass("AlignOrientation").Attachment1 = atho
 
@@ -1586,7 +1586,7 @@ end
 RWP6.Parent = rightWing
 
 local RWP7 = WingPiece:Clone();
-if game.Players.LocalPlayer.Character:FindFirstChild("Divine Aura") then -- Divine Aura
+if game.Players.LocalPlayer.Character:FindFirstChild("Evil Aura") then -- Divine Aura
 	for _,v in pairs(RWP7:GetChildren()) do
 		if v:IsA("BasePart") then
 			v.Transparency = 1
@@ -1595,7 +1595,7 @@ if game.Players.LocalPlayer.Character:FindFirstChild("Divine Aura") then -- Divi
 	local athp = Instance.new("Attachment",RWP7.PrimaryPart)
 	local atho = Instance.new("Attachment",RWP7.PrimaryPart)
 
-	local HatChoice = game.Players.LocalPlayer.Character:FindFirstChild("Divine Aura") --divine Aura
+	local HatChoice = game.Players.LocalPlayer.Character:FindFirstChild("Evil Aura") --divine Aura
 	HatChoice.Handle:FindFirstChildOfClass("AlignPosition").Attachment1 = athp
 	HatChoice.Handle:FindFirstChildOfClass("AlignOrientation").Attachment1 = atho
 
